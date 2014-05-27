@@ -3,11 +3,12 @@
 * Plugin Name: Social Media Menu Icons
 * Author: Russell Fair
 * Description: Adds social media icons to a WordPress Nav Menu
+* Version: 0.2
 */
 
 add_action('init', 'smmi_register_styles');
 function smmi_register_styles(){
-    $version = (int) '203';
+    $version = (int) '205';
     wp_register_style('smmi-fa', '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', array(), '410', 'screen');
     wp_register_style('smmi', plugins_url( 'lib/css/smmi.min.css' , __FILE__ ), array('smmi-fa'), $version, 'screen');
 }
