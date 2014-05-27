@@ -2,7 +2,7 @@
 /*
 * Plugin Name: Social Media Menu Icons
 * Author: Russell Fair
-* Description: Adds social menu icons to a WordPress Nav Menu
+* Description: Adds social media icons to a WordPress Nav Menu
 */
 
 add_action('init', 'smmi_register_styles');
